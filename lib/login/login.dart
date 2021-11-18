@@ -37,6 +37,6 @@ class Token {
 }
 
 void main() {
-  fetchToken('admin', 'B475csdu@#');
+  fetchToken('admin', '---------');
   print('Howdy, ${Token.fromJson(json)}!');
 }
